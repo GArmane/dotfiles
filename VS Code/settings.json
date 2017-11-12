@@ -1,0 +1,47 @@
+{
+    // Visual Studio Code Sync
+    "sync.gist": "bb1c3ca468089b5c1959bbaeab7ad579",
+    "sync.lastUpload": "2017-11-12T21:19:17.834Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "2017-10-09T00:36:32.481Z",
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "workbench.iconTheme": "vscode-icons",
+
+
+    // Python specific
+
+    // "python.pythonPath": "VIRTUALENV_PATH/bin/python3",
+    // "python.autoComplete.extraPaths": [
+    //     "VIRTUALENV_PATH/lib/python3.5/site-packages"
+    // ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.unitTest.unittestEnabled": true,
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.nosetestsEnabled": false,
+
+    // Extension and editor preferences
+
+    "files.insertFinalNewline": true,
+    "editor.fontFamily": "'Hack','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 14,
+    "editor.rulers": [80,120],
+    "editor.roundedSelection": false,
+    "explorer.openEditors.visible": 0,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        ".vscode": true,
+        "**/__pycache__": true,
+        "**/**/*.pyc": true
+    },
+    "window.zoomLevel": 0,
+    "workbench.panel.location": "bottom"
+}
