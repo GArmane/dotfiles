@@ -1,2 +1,2 @@
-# DotFiles
+# dotfiles
 Aliases and Configuration Files
