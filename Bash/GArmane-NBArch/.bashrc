@@ -15,3 +15,6 @@ export NVM_DIR="$HOME/.nvm"
 # Arch Linux specific commands
 alias SystemUpdate="trizen -Syu"
 alias SystemUpdateFull="trizen -Syyuu"
+alias StartPlasmaShell="kstart plasmashell"
+alias StopPlasmaShell="kquitapp5 plasmashell"
+alias RestartPlasmaShell="StopPlasmaShell && StartPlasmaShell"
