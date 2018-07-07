@@ -13,8 +13,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Arch Linux specific commands
-alias SystemUpdate="trizen -Syu"
-alias SystemUpdateFull="trizen -Syyuu"
+alias SystemUpdate="yay -Syu"
+alias SystemUpdateFull="yay -Syyuu"
 alias StartPlasmaShell="kstart plasmashell"
 alias StopPlasmaShell="kquitapp5 plasmashell"
 alias RestartPlasmaShell="StopPlasmaShell && StartPlasmaShell"
