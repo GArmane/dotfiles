@@ -1,0 +1,7 @@
+alias SystemUpdate="yay -Syu --sudoloop"
+alias SystemUpdateFull="yay -Syyuu --sudoloop"
+alias SystemUpdateAUR="yay -Syua --sudoloop"
+alias SystemUpdateFullAUR="yay -Syyuua --sudoloop"
+alias StartPlasmaShell="kstart plasmashell"
+alias StopPlasmaShell="kquitapp5 plasmashell"
+alias RestartPlasmaShell="StopPlasmaShell && StartPlasmaShell"
