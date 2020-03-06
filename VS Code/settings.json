@@ -1,12 +1,14 @@
 {
-    // Extension and editor preferences
-
+    // Editor preferences
+    "editor.suggestSelection": "first",
     "files.insertFinalNewline": true,
-    "editor.fontFamily": "'Hack','Inconsolata','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "'Fira Code','Hack','Inconsolata','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
     "editor.rulers": [80,120],
-    "editor.roundedSelection": false,
     "explorer.openEditors.visible": 0,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
@@ -14,43 +16,16 @@
         "**/__pycache__": true,
         "**/**/*.pyc": true
     },
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.zoomLevel": 0,
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": true
-    },
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
 
     // Python
-
     "python.venvPath": "/home/garmane/.local/share/virtualenvs",
-    "python.formatting.provider": "autopep8",
     "python.linting.enabled": true,
+    "python.jediEnabled": false,
 
-    // Visual Studio Code Sync
-    
-    "sync.gist": "bb1c3ca468089b5c1959bbaeab7ad579",
-    "sync.lastUpload": "2018-03-28T20:08:47.641Z",
-    "sync.autoDownload": false,
-    "sync.autoUpload": false,
-    "sync.lastDownload": "2017-10-09T00:36:32.481Z",
-    "sync.forceDownload": false,
-    "sync.host": "",
-    "sync.pathPrefix": "",
-    "sync.quietSync": false,
-    "sync.askGistName": false,
-    "workbench.iconTheme": "vscode-icons",
-    "gitlens.keymap": "chorded",
-    "sync.removeExtensions": true,
-    "sync.syncExtensions": true,
+    // Settings Sync
+    "sync.removeExtensions": false,
 }
-
