@@ -84,7 +84,7 @@ plugins=(
 	pyenv
 	python
 	zsh-autosuggestions
-	zsh-syntax-highlighting
+	zsh-syntax-highlightin
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -118,3 +118,4 @@ export LANG=pt_BR.UTF-8
 # tabtab source for packages
 # uninstall by removing these lines
 [[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
