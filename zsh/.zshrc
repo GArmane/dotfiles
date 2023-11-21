@@ -84,7 +84,7 @@ plugins=(
 	pyenv
 	python
 	zsh-autosuggestions
-	zsh-syntax-highlightin
+	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
