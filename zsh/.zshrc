@@ -8,7 +8,7 @@ export ZSH="/home/garmane/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -68,13 +68,30 @@ export UPDATE_ZSH_DAYS=7
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux colorize colored-man-pages cp docker docker-compose nvm pip python git)
+plugins=(
+	alias-finder
+	archlinux
+	colorize
+	colored-man-pages
+	command-not-found
+	cp
+	docker
+	docker-compose
+	git
+	mix
+	nvm
+	pip
+	pyenv
+	python
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 export LANG=pt_BR.UTF-8
@@ -97,3 +114,7 @@ export LANG=pt_BR.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
